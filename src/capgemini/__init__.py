@@ -1,5 +1,9 @@
-"""Package containing various test scripts and utilities for data retrieval pipelines.
+"""Documentation about capgemini."""
 
-This package includes test scripts for data retrieval from Horizon, Plannet, Sauron systems,
-Redis interaction tests, and other utility scripts for pipeline testing.
-"""
+import logging
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
+
+__author__ = "amir"
+__email__ = "amir@gmail.com"
+__version__ = "0.1.0"
