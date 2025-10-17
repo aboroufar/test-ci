@@ -1,10 +1,10 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0  
+    rev: v4.5.0
     hooks:
-      - id: check-yaml  
-      - id: end-of-file-fixer  
-      - id: trailing-whitespace  
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
       - id: name-tests-test  
       - id: check-added-large-files
       - id: check-merge-conflict
@@ -30,24 +30,24 @@ repos:
       - id: mypy
 
   - repo: https://github.com/psf/black
-    rev: 25.9.0  
+    rev: 25.9.0 
     hooks:
-      - id: black  
+      - id: black
 
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.1  
+    rev: v8.18.1
     hooks:
-      - id: gitleaks 
+      - id: gitleaks
 
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 3.0.0  
+    rev: 3.0.0
     hooks:
-      - id: forbid-binary 
-      - id: shellcheck  
-      - id: shfmt  
+      - id: forbid-binary
+      - id: shellcheck
+      - id: shfmt
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.5.4 
+    rev: v1.5.4
     hooks:
-      - id: forbid-crlf  
-      - id: remove-crlf 
+      - id: forbid-crlf
+      - id: remove-crlf
